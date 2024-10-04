@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+<meta charset="UTF-8">
+<title>Css Flip Book</title>
+<link rel="stylesheet" href="../static/css/style1.css">
+</head>
+<body>
+<div class="book">
+<input type="checkbox" id="c1">
+<input type="checkbox" id="c2">
+<input type="checkbox" id="c3">
+<div id="cover"><img src="../static/Images/saved/img.png"></div>
+<div class="flip-book">
+<div class="flip" id="p1">
+<div class="back">
+<img src="../static/Images/img2.jpg.jpg">
+<label class="back-btn" for="c1">Back</label>
+</div>
+<div class="front">
+<h2>Sample 1</h2>
+<p>{{content[0]}}</p>
+<label class="next-btn" for="c1">Next</label>
+	</div>
+</div>
+<div class="flip" id="p2">
+<div class="back">
+<img src="../static/Images/img3.jpg.jpg">
+<label class="back-btn" for="c2">Back</label>
+</div>
+<div class="front">
+<h2>Sample 2</h2>
+<p>{{content[1]}}</p>
+<label class="next-btn" for="c2">Next</label>
+	</div>
+</div>
+
+<div class="flip" id="p3">
+<div class="back">
+<label class="back-btn" for="c3">Back</label>
+</div>
+<div class="front">
+<h2>Sample 3</h2>
+<p>{{content[2]}}</p>
+<label class="next-btn" for="c3">Next</label>
+	</div>
+</div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Your Prompt</title>
+    <link rel="stylesheet" href="../static/css/style2.css">
+</head>
+<body>
+    <div class="prompt-container" method="post">
+        <div class="form-box" method="post">
+            <h1>What’s on your mind?</h1>
+            <form action="/output" method="post">
+                <textarea name="userPrompt" placeholder="Type your prompt here..." required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
