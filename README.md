@@ -1,5 +1,15 @@
 Story book narrative model
 
+requried packages:
+        transformers
+        diffusers
+        google.generativeai
+        pillow
+        sql.connector
+        flask
+        torch
+        accelerate
+
 --This model can able to generate it's own story and images 
 --we are accessing pretrained models to this project like (Gemini)
 -- And  leverage the model by using of intel openvino toolkit for optimize the rendering time
