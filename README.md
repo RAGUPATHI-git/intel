@@ -11,14 +11,14 @@ requried packages:
         accelerate
 
 --This model can able to generate it's own story and images 
---we are accessing pretrained models to this project like (Gemini)
+--we are accessing pretrained models  like (Gemini)
 -- And  leverage the model by using of intel openvino toolkit for optimize the rendering time
 -- you can't directly access the model because you need the access token key from hugging face.
 
 
 Technnologies that we are used :
   LLM:
-    The LLM basically narrte the story from the online of prompt
+    The LLM basically narrate the story from the online of prompt
 
   Stable diffusion:
     It will generate the images with the help of prompt that is produced by the LLM
